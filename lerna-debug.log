@@ -1,0 +1,83 @@
+0 warn deprecated --skip-git has been replaced by --no-git-tag-version --no-push
+1 silly argv {
+1 silly argv   _: [ 'publish' ],
+1 silly argv   contents: 'qxyl-request',
+1 silly argv   composed: 'publish',
+1 silly argv   lernaVersion: '4.0.0',
+1 silly argv   '$0': 'd:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js',
+1 silly argv   gitTagVersion: false,
+1 silly argv   'git-tag-version': false,
+1 silly argv   push: false
+1 silly argv }
+2 notice cli v4.0.0
+3 verbose rootPath D:\web\lerna
+4 info versioning independent
+5 verbose session 90ecd778463ee452
+6 verbose user-agent lerna/4.0.0/node@v14.15.4+x64 (win32)
+7 silly argv {
+7 silly argv   _: [ 'publish' ],
+7 silly argv   contents: 'qxyl-request',
+7 silly argv   composed: 'publish',
+7 silly argv   lernaVersion: '4.0.0',
+7 silly argv   gitTagVersion: false,
+7 silly argv   'git-tag-version': false,
+7 silly argv   push: false
+7 silly argv }
+8 verbose rootPath D:\web\lerna
+9 notice FYI git repository validation has been skipped, please ensure your version bumps are correct
+10 silly hasTags
+11 verbose hasTags false
+12 info Assuming all packages changed
+13 verbose updated yjh-utils-one
+14 verbose updated qxyl-request
+15 verbose updated yjh-utils-two
+16 warn version Skipping working tree validation, proceed at your own risk
+17 info execute Skipping git tag/commit
+18 info execute Skipping git push
+19 info execute Skipping releases
+20 silly lifecycle No script for "preversion" in "root", continuing
+21 silly lifecycle No script for "preversion" in "yjh-utils-one", continuing
+22 silly lifecycle No script for "preversion" in "qxyl-request", continuing
+23 silly lifecycle No script for "preversion" in "yjh-utils-two", continuing
+24 silly lifecycle No script for "version" in "yjh-utils-two", continuing
+25 silly lifecycle No script for "version" in "qxyl-request", continuing
+26 silly lifecycle No script for "version" in "yjh-utils-one", continuing
+27 silly lifecycle No script for "version" in "root", continuing
+28 info publish Publishing packages to npm...
+29 info Verifying npm credentials
+30 verbose Retrieving npm user profile
+31 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 834ms
+32 silly npm profile get received {"tfa":false,"name":"wywkwsw","email":"654872443@qq.com","email_verified":true,"created":"2021-06-08T02:58:08.538Z","updated":"2021-06-08T02:58:08.530Z","cidr_whitelist":null}
+33 silly get npm username received {"username":"wywkwsw","tfa":false,"name":"wywkwsw","email":"654872443@qq.com","email_verified":true,"created":"2021-06-08T02:58:08.538Z","updated":"2021-06-08T02:58:08.530Z","cidr_whitelist":null}
+34 silly verifyNpmPackageAccess
+35 http fetch GET 200 https://registry.npmjs.org/-/org/wywkwsw/package?format=cli 778ms (cache updated)
+36 info Checking two-factor auth mode
+37 verbose Retrieving npm user profile
+38 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 280ms
+39 silly npm profile get received {"tfa":false,"name":"wywkwsw","email":"654872443@qq.com","email_verified":true,"created":"2021-06-08T02:58:08.538Z","updated":"2021-06-08T02:58:08.530Z","cidr_whitelist":null}
+40 silly 2FA false
+41 warn ENOLICENSE Packages yjh-utils-one, qxyl-request, and yjh-utils-two are missing a license.
+41 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+41 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+42 silly getCurrentSHA
+43 verbose getCurrentSHA e8354c1f405e053638ef98e8c61bfd1efb6fcbe1
+44 silly lifecycle No script for "prepublish" in "root", continuing
+45 silly lifecycle No script for "prepare" in "root", continuing
+46 silly lifecycle No script for "prepublishOnly" in "root", continuing
+47 silly lifecycle No script for "prepack" in "root", continuing
+48 verbose pack-directory packages\one\qxyl-request
+49 verbose pack-directory packages\qxyl-request\qxyl-request
+50 verbose pack-directory packages\two\qxyl-request
+51 silly lifecycle No script for "prepublish" in "yjh-utils-one", continuing
+52 silly lifecycle No script for "prepublish" in "qxyl-request", continuing
+53 silly lifecycle No script for "prepublish" in "yjh-utils-two", continuing
+54 silly lifecycle No script for "prepare" in "yjh-utils-one", continuing
+55 silly lifecycle No script for "prepare" in "qxyl-request", continuing
+56 silly lifecycle No script for "prepare" in "yjh-utils-two", continuing
+57 silly lifecycle No script for "prepublishOnly" in "yjh-utils-one", continuing
+58 silly lifecycle No script for "prepublishOnly" in "qxyl-request", continuing
+59 silly lifecycle No script for "prepublishOnly" in "yjh-utils-two", continuing
+60 silly lifecycle No script for "prepack" in "qxyl-request", continuing
+61 silly lifecycle No script for "prepack" in "yjh-utils-two", continuing
+62 silly lifecycle No script for "prepack" in "yjh-utils-one", continuing
+63 error

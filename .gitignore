@@ -1,3 +1,4 @@
 /node_modules
 /packages/two/node_modules
 /packages/one/node_modules
+/packages/qxyl-request/node_modules

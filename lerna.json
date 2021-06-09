@@ -2,6 +2,9 @@
   "packages": [
     "packages/*"
   ],
+  "scripts": {
+    "build:rollup": "lerna run build --scope one"
+  },
   "version": "independent",
   "command":{
     "publish":{
@@ -10,6 +13,9 @@
     },
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
+    },
+    "publishConfig": {
+      "access": "public"
     }
   }
 }

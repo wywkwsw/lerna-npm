@@ -1,0 +1,20 @@
+{
+  "name": "qxyl-request",
+  "version": "1.0.3-alpha.0",
+  "description": "基于axios封装请求",
+  "main": "request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "axios"
+  ],
+  "author": "yangjunhao",
+  "license": "ISC",
+  "gitHead": "e8354c1f405e053638ef98e8c61bfd1efb6fcbe1",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-ui": "^2.15.2",
+    "yjh-utils-one": "^1.0.3-alpha.0"
+  }
+}

@@ -1,10 +1,12 @@
 {
   "name": "yjh-utils-one",
-  "version": "1.0.0",
+  "version": "1.0.3-alpha.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "build:wb": "webpack"
   },
   "keywords": [
     "js-utils-one"
@@ -12,6 +14,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "webpack-cli": "^4.7.2",
     "yjh-utils": "^1.0.0"
-  }
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.2.0",
+    "webpack": "^5.38.1"
+  },
+  "gitHead": "e8354c1f405e053638ef98e8c61bfd1efb6fcbe1"
 }

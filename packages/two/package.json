@@ -1,6 +1,6 @@
 {
   "name": "yjh-utils-two",
-  "version": "1.0.0",
+  "version": "1.0.2-alpha.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "webpack-cli": "^4.7.2",
     "yjh-utils": "^1.0.0"
-  }
+  },
+  "gitHead": "e8354c1f405e053638ef98e8c61bfd1efb6fcbe1"
 }
